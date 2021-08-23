@@ -1,0 +1,14 @@
+{
+    "name": "Whatsapp mention everyone",
+    "description": "Adds the ability to mention everyone in a group",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background.service_worker": {
+        "scripts": [
+            "main.js"
+        ]
+    },
+    "permissions": [
+        "contextMenus"
+    ]
+}
